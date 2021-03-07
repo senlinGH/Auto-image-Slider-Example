@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         
         pageControl.numberOfPages = airJordanArr.count  // Page Control 總共頁數
         pageControl.currentPage = 0
+        pageControl.currentPageIndicatorTintColor = .link   // 目前所在頁數的點點顏色
         
         /*
          withTimeInterval：觸發Timer的間隔時間
