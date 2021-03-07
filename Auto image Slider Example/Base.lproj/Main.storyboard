@@ -22,7 +22,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="kJx-oa-bVi"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="10" id="Xq1-fV-9J2">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Xq1-fV-9J2">
                                     <size key="itemSize" width="375" height="230"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -69,6 +69,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="collectionHeight" destination="kJx-oa-bVi" id="iXx-m0-Sqp"/>
                         <outlet property="pageControl" destination="JoS-Cv-I1Z" id="nUc-ex-QJn"/>
                         <outlet property="sliderCollectionView" destination="0hC-Xp-8Et" id="JeD-hT-ldm"/>
                     </connections>
